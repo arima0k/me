@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'me.tecstim.com',
+  title: 'arima0k',
   tagline: 'Personal website',
   url: 'https://me.tectim.com',
   baseUrl: '/',
