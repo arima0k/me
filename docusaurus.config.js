@@ -45,10 +45,10 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
       },
       navbar: {
-        title: 'angw97\'s',
+        title: 'Tecstim (Personal Website)',
         logo: {
           alt: 'tecstim logo',
           src: 'img/logo.svg',
@@ -57,7 +57,7 @@ const config = {
           {
             href: 'https://github.com/arima0k',
             label: "GitHub",
-            position: 'left',
+            position: 'right',
           },
         ],
       },
