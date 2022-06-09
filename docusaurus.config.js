@@ -1,6 +1,5 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -45,10 +44,10 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: true,
+        disableSwitch: false,
       },
       navbar: {
-        title: 'Tecstim (Personal Website)',
+        title: 'Home',
         logo: {
           alt: 'tecstim logo',
           src: 'img/logo.svg',
@@ -56,8 +55,14 @@ const config = {
         items: [
           {
             href: 'https://github.com/arima0k',
-            label: "GitHub",
+            className: "header-icon-link header-github-link",
             position: 'right',
+          },
+          {
+            href: '/CV',
+            html: '<b class="custom-button1">My Resume</b>',
+
+            position: 'left',
           },
         ],
       },
