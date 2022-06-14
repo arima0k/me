@@ -5,7 +5,17 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
+:root {--ifm-color-primary: #ffdfae;
+  --ifm-color-primary-dark: #ffce83;
+  --ifm-color-primary-darker: #ffc66e;
+  --ifm-color-primary-darkest: #ffac2d;
+  --ifm-color-primary-light: #fff0d9;
+  --ifm-color-primary-lighter: #fff8ee;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-code-font-size: 95%;
+}
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
   --ifm-color-primary: #216778;
   --ifm-color-primary-dark: #1e5d6c;
   --ifm-color-primary-darker: #1c5866;
@@ -13,18 +23,6 @@
   --ifm-color-primary-light: #247184;
   --ifm-color-primary-lighter: #26768a;
   --ifm-color-primary-lightest: #2b869c;
-  --ifm-code-font-size: 95%;
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #3ab7d6;
-  --ifm-color-primary-dark: #2aabcb;
-  --ifm-color-primary-darker: #28a1bf;
-  --ifm-color-primary-darkest: #21859e;
-  --ifm-color-primary-light: #51bfdb;
-  --ifm-color-primary-lighter: #5cc3dd;
-  --ifm-color-primary-lightest: #7ed0e4;
 }
 
 .docusaurus-highlight-code-line {
@@ -41,7 +39,7 @@
 .custom-button1 {
   background-color: #1E6070;
   border-radius: 2px;
-  color: white;
+  color: #ffdfae;
   padding: 0.3rem;
   font-family: Roboto, sans-serif
 }
@@ -67,11 +65,6 @@
   no-repeat center;
 }
 
-.paragraph-1 {
-  color: #129FCC;
+[data-theme="dark"] .index_hs {
+  color: #494949;
 }
-
-[data-theme="dark"] .paragraph-1 {
-  color: #152347;
-}
-

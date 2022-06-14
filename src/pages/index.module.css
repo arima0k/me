@@ -8,6 +8,11 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  color: #216778;
+}
+
+[data-theme='dark'] .heroBanner {
+  color: #ffdfae;
 }
 
 @media screen and (max-width: 996px) {
@@ -22,6 +27,21 @@
   justify-content: center;
 }
 
-.Roboto {
-  font-family: 'Roboto', sans-serif;
+.aboutBanner {
+  padding: 2rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  --ifm-color-primary: #1e5d6c;
+  --ifm-color-primary-dark: #1b5461;
+  --ifm-color-primary-darker: #194f5c;
+  --ifm-color-primary-darkest: #15414c;
+  --ifm-color-primary-light: #216677;
+  --ifm-color-primary-lighter: #226b7c;
+  --ifm-color-primary-lightest: #27798c;
+}
+
+.tecstim {
+color: rgba(255, 255, 255, 0.31);
 }
