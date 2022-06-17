@@ -11,12 +11,27 @@
   color: #216778;
 }
 
+.heroBanner2{
+  padding: 0.5rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  color: #216778;
+}
+
 [data-theme='dark'] .heroBanner {
   color: #ffdfae;
 }
 
+[data-theme='dark'] .heroBanner2 {
+  color: #fffeae;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
+    padding: 2rem;
+  }
+  .heroBanner2{
     padding: 2rem;
   }
 }
