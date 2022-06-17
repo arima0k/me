@@ -43,7 +43,7 @@ function Technology() {
   return (
     <div className={clsx('hero hero--dark', styles.tecstim)}>
       <div className="container">
-        <h2 className="hero__subtitle">This my personal website and domain that I use for various things.</h2>
+        <h2 className="hero__subtitle">This my personal website and domain.</h2>
         <h1 className="hero__title">Why tecstim?</h1>
         <p className="hero__subtitle" style={{ fontSize: "110%" }}>Technology means "science of craft", from Greek τέχνη, <span style={{color: '#e17a9b'}}><b>tec</b></span>hne,
         "art, skill, cunning of hand"; and -λογία, -logia. • And κατάστημα (katá<span style={{color: '#e17a9b'}}><b>stim</b></span>a), shop, store. </p>
