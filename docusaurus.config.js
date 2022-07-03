@@ -42,9 +42,23 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/og_image.png',
+      metadata: [
+        {
+          property: 'og:image',
+          content: 'img/og_image.png',
+        },
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {
+          name: 'twitter:image',
+          content: 'img/og_image.png',
+        },
+        {name: 'twitter:site', content: 'summary'},
+      ],
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: true,
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Home',

@@ -1,13 +1,80 @@
-.heroBanner {
+.infoBanner {
     padding: 2rem 0;
     text-align: left;
     position: relative;
     overflow: hidden;
+    color: #216778;
+    background-color: #ffdfae;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b8812d' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+[data-theme='dark'] .infoBanner {
+    color: #ffdfae;
+    background-color: #216778;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2323b0d2' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 @media screen and (max-width: 996px) {
-    .heroBanner {
-        padding: 2rem;
+    .infoBanner {
+        padding: 1rem;
+    }
+    .expBanner {
+        padding: 1rem;
+    }
+    .coursesBanner {
+        padding: 1rem;
+    }
+    .TSkills {
+        padding: 1rem;
     }
 }
 
+.expBanner {
+    padding: 2rem 0;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    color: #216778;
+    --ifm-color-primary: #F2D3A5;
+}
+
+[data-theme='dark'] .expBanner {
+    --ifm-color-primary: #19515E;
+    color: #ffdfae;
+}
+
+.coursesBanner {
+    padding: 2rem 0;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    color: #216778;
+    --ifm-color-primary: #CCB28B;
+}
+
+[data-theme='dark'] .coursesBanner {
+    --ifm-color-primary: #1D5D6B;
+    color: #ffdfae;
+}
+
+.TSkills {
+    padding: 2rem 0;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    color: #216778;
+    background-color: #E6C89C;
+}
+
+[data-theme='dark'] .TSkills {
+    color: #ffdfae;
+    background-color: #247185;
+}
+
+.Line {
+    border: 2px solid #216778;
+}
+
+[data-theme='dark'] .Line {
+    border: 2px solid #ffdfae;
+}
