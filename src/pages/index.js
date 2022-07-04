@@ -51,7 +51,7 @@ function Technology() {
         <h2 className="hero__subtitle"><b>Why English?</b></h2>
         <p className="hero__subtitle">"It is the language of science, aviation, computers, diplomacy and tourism.
             Last but not least, it is the language of international communication, the media and the internet."
-            (<a href="https://www.etsglobal.org/pa/en/blog/news/importance-of-learning-english">source</a>) </p>
+            (<Link to="https://www.etsglobal.org/pa/en/blog/news/importance-of-learning-english">source</Link>) </p>
       </div>
     </div>
     );
