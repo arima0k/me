@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './CV.module.css';
+import Link from "@docusaurus/core/lib/client/exports/Link";
 
 const svgIcon = {
     display:"inline-flex",
@@ -11,6 +12,10 @@ const svgIcon = {
     position: "relative",
     height: "1em",
     width: "1em"
+}
+
+const inherit = {
+    color: "inherit",
 }
 
 function Info() {
@@ -64,11 +69,16 @@ function Experience() {
                 <h2 style={{ fontSize: "2em"}}>Professional</h2>
                 <ul className="hero__subtitle">
                     <li><b>IT Support Technician</b></li>
+                    <ul>
                         <li>Provide support to costumers through Jira Service Desk.</li>
                         <li>Customer's computer systems setup with the necessary tools and programs.</li>
                         <li>Mail, Active Directory, office and other enterprise tools account configuration.</li>
                         <li>Dell PowerEdge and HPE ProLiant server hardware and software configuration.</li>
+                        <li>Virtual Machines administration in VMware ESXi.</li>
+                        <li>Installation, configuration and troubleshooting of Video Surveillance Systems like Hikvision.</li>
+                        <li>Troubleshooting in record time of problems that disrupt customer workflows.</li>
                     </ul>
+                </ul>
                 <ul className="hero__subtitle">
                     <li><b>Business ISP Technician</b></li>
                         <ul>
@@ -78,6 +88,22 @@ function Experience() {
                         </ul>
                     </ul>
                 <h2 style={{ fontSize: "2em"}}>Independent</h2>
+                <ul className="hero__subtitle">
+                    <li>IT Support Consultant</li>
+                    <li>System Administration</li>
+                        <ul>
+                            <li>Cloud and bare metal Linux servers setup.</li>
+                            <li>A, MX, TXT, and CNAME DNS record administration.</li>
+                            <li>Cloud Virtual Machine instances creation and configuration.</li>
+                            <li>VMware Workstation setup.</li>
+                            <li>NGINX Web Server Configuration.</li>
+                            <li>Database and user MariaDB creation for Web Server.</li>
+                            <li>Basic Docker container creation, registration and deployment.</li>
+                            <li>SSL Certificates creation with Certbot.</li>
+                            <li>OpenSSH server and client configuration.</li>
+                            <li>SSH key creation and VPN secure access trough <Link style={inherit} to="https://www.zerotier.com/"> ZeroTier</Link>.</li>
+                        </ul>
+                </ul>
             </div>
         </header>
     );
@@ -89,11 +115,33 @@ function Courses() {
             <div className="container">
                 <h1 className="hero__title">Courses</h1>
                 <ul className="hero__subtitle"><li>CCNA Routing and Switching</li></ul>
-                <ul className="hero__subtitle"><li><a
-                    style={{ color: "inherit" }}
-                    href="https://www.coursera.org/professional-certificates/google-it-support">
+                <ul className="hero__subtitle"><li><Link style={inherit}
+                    to="https://www.coursera.org/professional-certificates/google-it-support">
                     Google IT Support by Google at Coursera
-                </a></li></ul>
+                </Link></li>
+                    <ul>
+                        <li><Link style={inherit}
+                            to="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">
+                            Technical Support Fundamentals
+                        </Link></li>
+                        <li><Link style={inherit}
+                                  to="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">
+                            The Bits and Bytes of Computer Networking
+                        </Link></li>
+                        <li><Link style={inherit}
+                                  to="https://www.coursera.org/learn/os-power-user?specialization=google-it-support">
+                            Operating Systems and You: Becoming a Power User
+                        </Link></li>
+                        <li><Link style={inherit}
+                                  to="https://www.coursera.org/learn/system-administration-it-infrastructure-services?specialization=google-it-support">
+                            System Administration and IT Infrastructure Services
+                        </Link></li>
+                        <li><Link style={inherit}
+                                  to="https://www.coursera.org/learn/it-security?specialization=google-it-support">
+                            IT Security: Defense against the digital dark arts
+                        </Link></li>
+                    </ul>
+                </ul>
             </div>
         </header>
     );
