@@ -101,7 +101,11 @@ function Experience() {
                             <li>Basic Docker container creation, registration and deployment.</li>
                             <li>SSL Certificates creation with Certbot.</li>
                             <li>OpenSSH server and client configuration.</li>
-                            <li>SSH key creation and VPN secure access trough <Link style={inherit} to="https://www.zerotier.com/"> ZeroTier</Link>.</li>
+                            <li>SSH key creation and VPN secure access trough <Link style={inherit} to="https://www.zerotier.com/"> ZeroTier
+                                <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </Link>.</li>
                         </ul>
                 </ul>
             </div>
@@ -118,27 +122,45 @@ function Courses() {
                 <ul className="hero__subtitle"><li><Link style={inherit}
                     to="https://www.coursera.org/professional-certificates/google-it-support">
                     Google IT Support by Google at Coursera
+                    <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
                 </Link></li>
                     <ul>
                         <li><Link style={inherit}
                             to="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">
                             Technical Support Fundamentals
+                            <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
                         </Link></li>
                         <li><Link style={inherit}
                                   to="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">
                             The Bits and Bytes of Computer Networking
+                            <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
                         </Link></li>
                         <li><Link style={inherit}
                                   to="https://www.coursera.org/learn/os-power-user?specialization=google-it-support">
                             Operating Systems and You: Becoming a Power User
+                            <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
                         </Link></li>
                         <li><Link style={inherit}
                                   to="https://www.coursera.org/learn/system-administration-it-infrastructure-services?specialization=google-it-support">
                             System Administration and IT Infrastructure Services
+                            <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
                         </Link></li>
                         <li><Link style={inherit}
                                   to="https://www.coursera.org/learn/it-security?specialization=google-it-support">
                             IT Security: Defense against the digital dark arts
+                            <svg xmlns="http://www.w3.org/2000/svg" style = {svgIcon} className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
                         </Link></li>
                     </ul>
                 </ul>
