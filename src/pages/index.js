@@ -30,8 +30,8 @@ function AboutMe() {
                     <br />
                     I like doing tech experiments (not production environment), Open-Source Enthusiast.
                     I really like Linux, very familiar with it, I use <Link style={{ color: "#072C61" }} to="https://getfedora.org/en/workstation/">Fedora</Link> on my daily driver laptop.</p>
-                <p className="hero__subtitle">Some of my skill are: <span style={{ fontStyle: "oblique" }}>intuitive, self-taught,
-                    logical thinking, quick learning and versatile.</span>
+                <p className="hero__subtitle">Some of my skill are: <span style={{ fontStyle: "oblique" }}>intuitive, self-starter,
+                    problem-solving, logical thinking, quick learning and versatile.</span>
                     <br />
                     I like computational problem solving and research.
                 </p>

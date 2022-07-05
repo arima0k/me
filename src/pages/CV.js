@@ -34,7 +34,7 @@ function Info() {
                 <hr className={styles.Line}/>
                 <h2 style={{ fontSize: "2em"}}>Summary</h2>
                 <p style={{ fontSize: "1.5em" }}>
-                    A driven autodidact with strong learning and problem solving skills
+                    A driven autodidact with strong learning and problem-solving skills
                     who dabbles in the tech world, not only for fun. Primarily focused on problem solving and research.
                     More interested in prevention by keeping the infrastructure up to date while maintaining stability and usability and end-user education.
                 </p>
@@ -77,6 +77,7 @@ function Experience() {
                         <li>Virtual Machines administration in VMware ESXi.</li>
                         <li>Installation, configuration and troubleshooting of Video Surveillance Systems like Hikvision.</li>
                         <li>Troubleshooting in record time of problems that disrupt customer workflows.</li>
+                        <li>On-site customer support when needed.</li>
                     </ul>
                 </ul>
                 <ul className="hero__subtitle">
