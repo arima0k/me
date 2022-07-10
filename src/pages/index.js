@@ -35,6 +35,8 @@ function AboutMe() {
                     <br />
                     I like computational problem solving and research.
                 </p>
+                <br />
+                <p className="hero__subtitle">Check my <Link to="/CV"><b className="custom-btn-1">Resume/CV</b></Link></p>
             </div>
         </header>
     );

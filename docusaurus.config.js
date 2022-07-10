@@ -15,6 +15,7 @@ const config = {
   organizationName: 'arima0k', // Usually your GitHub org/user name.
   projectName: 'me', // Usually your repo name.
   trailingSlash: false,
+  plugins: ['docusaurus-plugin-sass'],
 
   presets: [
     [
@@ -74,7 +75,7 @@ const config = {
           },
           {
             href: '/CV',
-            html: '<b class="custom-button1">My Resume</b>',
+            html: '<button class="custom-btn-1">My Resume</button>',
             position: 'left',
           },
         ],
