@@ -82,11 +82,11 @@
 }
 
 .SvgLogo {
-  content: url(../../static/img/logo.svg);
+  content: url("../../static/img/logo.svg");
   width: 10rem;
   height: 10rem;
 }
 
 [data-theme="dark"] .SvgLogo {
-  content: url(../../static/img/logo_inverse.svg);
+  content: url("../../static/img/logo_inverse.svg");
 }
