@@ -11,6 +11,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+          <img className="SvgLogo"  alt=""/>
         <h1 className="hero__title" style={{ fontSize: "65px" }}>Luis Vera</h1>
         <h2 className="hero__subtitle" style={{ fontSize: 'xx-large' }}>Personal Website</h2>
         <p className="hero__subtitle" style={{ fontStyle: 'italic', fontSize: "1.6em" }}>"Looking for technology that helps make the world a better place".</p>

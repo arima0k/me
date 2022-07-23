@@ -80,3 +80,13 @@
 [data-theme="dark"] .index_hs {
   color: #494949;
 }
+
+.SvgLogo {
+  content: url(../../static/img/logo.svg);
+  width: 10rem;
+  height: 10rem;
+}
+
+[data-theme="dark"] .SvgLogo {
+  content: url(../../static/img/logo_inverse.svg);
+}
