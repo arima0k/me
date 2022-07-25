@@ -26,7 +26,7 @@ function AboutMe() {
             <div className="container">
                 <br/><img style={{ height: "auto", width: "25%", borderRadius: "50%" }} src="https://github.com/arima0k.png" alt=""/><br/>
                 <h1 className="hero__title">Hello! </h1>
-                <h2>I'm Luis (I use the nicknames arima0k and angw97).</h2>
+                <h2>I'm Luis (I use the nicknames "arima0k" and "angw97").</h2>
                 <h2>I'm a Computer science enthusiast.</h2>
                 <p className="hero__subtitle">
                     I like doing tech experiments (not production environment), Open-Source Enthusiast.
