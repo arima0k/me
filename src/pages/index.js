@@ -13,8 +13,7 @@ function HomepageHeader() {
       <div className="container">
           <img className="SvgLogo"  alt=""/>
         <h1 className="hero__title" style={{ fontSize: "65px" }}>Luis Vera</h1>
-        <h2 className="hero__subtitle" style={{ fontSize: 'xx-large' }}>Personal Website</h2>
-        <p className="hero__subtitle" style={{ fontStyle: 'italic', fontSize: "1.6em" }}>"Looking for technology that helps make the world a better place".</p>
+        <p className="hero__subtitle" style={{fontSize: "2em"}}>"A life-changing and life-enhancing technology hunter."</p>
       </div>
     </header>
   );
@@ -24,20 +23,18 @@ function AboutMe() {
     return (
         <header className={clsx('hero hero--primary', styles.aboutBanner)}>
             <div className="container">
-                <br/><img style={{ height: "auto", width: "25%", borderRadius: "50%" }} src="https://github.com/arima0k.png" alt=""/><br/>
                 <h1 className="hero__title">Hello! </h1>
+                <p className="hero__subtitle">Check my <Link to="/CV"><b className="custom-btn-1">Resume</b></Link></p>
                 <h2>I'm Luis (I use the nicknames "arima0k" and "angw97").</h2>
-                <h2>I'm a Computer science enthusiast.</h2>
+                <h2>I'm a Computer science enthusiast,
+                    From Panamá</h2>
                 <p className="hero__subtitle">
-                    I like doing tech experiments (not production environment), Open-Source Enthusiast.
-                    I really like Linux, very familiar with it, I use <Link style={{ color: "#0c89c5" }} to="https://getfedora.org/en/workstation/">Fedora</Link> on my daily driver laptop.</p>
-                <p className="hero__subtitle">Some of my skill are: <span style={{ fontStyle: "oblique" }}>intuitive, self-starter,
+                    I like doing tech experiments (not production environment).<br />
+                    Open-Source Fan, I use <Link style={{ color: "#0c89c5" }} to="https://getfedora.org/en/workstation/">Fedora</Link> on my daily driver laptop.</p>
+                <p className="hero__subtitle">Some of my skill are: <span style={{ fontStyle: "oblique" }}>intuitive, self-taught,
                     problem-solving, logical thinking, quick learning and versatile.</span>
                     <br />
-                    I like computational problem solving and research.
                 </p>
-                <br />
-                <p className="hero__subtitle">Check my <Link to="/CV"><b className="custom-btn-1">Resume/CV</b></Link></p>
             </div>
         </header>
     );

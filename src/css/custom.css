@@ -90,3 +90,10 @@
 [data-theme="dark"] .SvgLogo {
   content: url("../../static/img/logo_inverse.svg");
 }
+
+@media screen and (max-width: 996px) {
+  .SvgLogo {
+    width: 7rem;
+    height: 7rem;
+  }
+}

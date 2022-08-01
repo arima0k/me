@@ -34,9 +34,9 @@ function Info() {
                 <hr className={styles.Line}/>
                 <h2 style={{ fontSize: "2em"}}>Summary</h2>
                 <p style={{ fontSize: "1.5em" }}>
-                    A driven autodidact with strong learning and problem-solving skills
-                    who dabbles in the tech world, not only for fun. Primarily focused on problem solving and research.
-                    More interested in prevention by keeping the infrastructure up to date while maintaining stability and usability and end-user education.
+                    Self-taught in computer science.
+                    I like solving computational problems (also some coding),
+                    being always up to date on updates and new technologies, teaching what I know and helping others.
                 </p>
             </div>
         </header>
