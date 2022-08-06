@@ -87,9 +87,6 @@
   height: 10rem;
 }
 
-[data-theme="dark"] .SvgLogo {
-  content: url("../../static/img/logo_r.svg");
-}
 
 @media screen and (max-width: 996px) {
   .SvgLogo {
