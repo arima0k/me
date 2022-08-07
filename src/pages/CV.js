@@ -36,7 +36,7 @@ function Info() {
                 <p style={{ fontSize: "1.5em" }}>
                     Self-taught in computer science.
                     I like solving computational problems (also some coding),
-                    being always up to date on updates and new technologies, teaching what I know and helping others.
+                    always be up to date with updates and new technologies, teaching what I know and helping others.
                 </p>
             </div>
         </header>

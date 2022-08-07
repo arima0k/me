@@ -3,14 +3,14 @@
     text-align: left;
     position: relative;
     overflow: hidden;
-    color: #216778;
-    background-color: #ffdfae;
+    color: #194070;
+    background-color: #71a9ec;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b8812d' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 [data-theme='dark'] .infoBanner {
-    color: #ffdfae;
-    background-color: #216778;
+    color: #71a9ec;
+    background-color: #194070;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2323b0d2' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
@@ -29,18 +29,32 @@
     }
 }
 
+.TSkills {
+    padding: 2rem 0;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    color: #194070;
+    background-color: #6683de;
+}
+
+[data-theme='dark'] .TSkills {
+    color: #71a9ec;
+    background-color: #183a72;
+}
+
 .expBanner {
     padding: 2rem 0;
     text-align: left;
     position: relative;
     overflow: hidden;
-    color: #216778;
-    --ifm-color-primary: #F2D3A5;
+    color: #194070;
+    --ifm-color-primary: #718aec;
 }
 
 [data-theme='dark'] .expBanner {
-    --ifm-color-primary: #19515E;
-    color: #ffdfae;
+    --ifm-color-primary: #1f316e;
+    color: #71a9ec;
 }
 
 .coursesBanner {
@@ -48,27 +62,13 @@
     text-align: left;
     position: relative;
     overflow: hidden;
-    color: #216778;
-    --ifm-color-primary: #CCB28B;
+    color: #194070;
+    --ifm-color-primary: #7173ec;
 }
 
 [data-theme='dark'] .coursesBanner {
-    --ifm-color-primary: #1D5D6B;
-    color: #ffdfae;
-}
-
-.TSkills {
-    padding: 2rem 0;
-    text-align: left;
-    position: relative;
-    overflow: hidden;
-    color: #216778;
-    background-color: #E6C89C;
-}
-
-[data-theme='dark'] .TSkills {
-    color: #ffdfae;
-    background-color: #247185;
+    --ifm-color-primary: #110456;
+    color: #71a9ec;
 }
 
 .Line {
@@ -76,5 +76,5 @@
 }
 
 [data-theme='dark'] .Line {
-    border: 2px solid #ffdfae;
+    border: 2px solid #71a9ec;
 }

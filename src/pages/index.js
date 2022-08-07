@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
           <img className="SvgLogo"  alt=""/>
         <h1 className="hero__title" style={{ fontSize: "65px" }}>Luis Vera</h1>
-        <p className="hero__subtitle" style={{fontSize: "2em"}}>"A life-changing and life-enhancing technology hunter."</p>
+        <h2 className="hero__title" style={{fontSize: "2rem"}}>"A life-changing and life-enhancing technology hunter."</h2>
       </div>
     </header>
   );
@@ -27,7 +27,7 @@ function AboutMe() {
                 <p className="hero__subtitle">Check my <Link to="/CV"><b className="custom-btn-1">Resume</b></Link></p>
                 <h2>I'm Luis (I use the nicknames "arima0k" and "angw97").</h2>
                 <h2>I'm a Computer science enthusiast,
-                    From Panamá</h2>
+                    from Panamá</h2>
                 <p className="hero__subtitle">
                     I like doing tech experiments (not production environment).<br />
                     Open-Source Fan, I use <Link style={{ color: "#0c89c5" }} to="https://getfedora.org/en/workstation/">Fedora</Link> on my daily driver laptop.</p>
