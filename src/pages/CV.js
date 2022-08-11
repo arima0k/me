@@ -102,6 +102,7 @@ function Experience() {
                                     <li>Azure: Virtual Machines, Virtual Network, DevOps.</li>
                                     <li>AWS: EC2, SES.</li>
                                 </ul>
+                            <li>Cloudflare: CND, DNS, Pages.</li>    
                             <li>VMware Workstation setup.</li>
                             <li>Network Administration (Linux, OpenWrt, etc.)</li>
                             <li>NGINX Web Server Configuration.</li>
