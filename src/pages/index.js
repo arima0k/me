@@ -27,7 +27,7 @@ function AboutMe() {
                 <p className="hero__subtitle">Check my <Link to="/CV"><b className="custom-btn-1">Resume</b></Link></p>
                 <h2>I'm Luis (I use the nicknames "arima0k" and "angw97").</h2>
                 <h2>I'm a Computer science enthusiast,
-                    from Panamá</h2>
+                    from Panamá.</h2>
                 <p className="hero__subtitle">
                     I like doing tech experiments (not production environment).<br />
                     Open-Source Fan, I use <Link style={{ color: "#0c89c5" }} to="https://getfedora.org/en/workstation/">Fedora</Link> on my daily driver laptop.</p>
