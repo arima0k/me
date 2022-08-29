@@ -75,6 +75,7 @@ function Experience() {
                         <li>Mail, Active Directory, office and other enterprise tools account configuration.</li>
                         <li>Dell PowerEdge and HPE ProLiant server hardware and software configuration.</li>
                         <li>Virtual Machines administration in VMware ESXi.</li>
+                        <li>Network and VPN configuration (Fortinet, MikroTik, ZyXEL)</li>
                         <li>Installation, configuration and troubleshooting of Video Surveillance Systems like Hikvision.</li>
                         <li>Troubleshooting in record time of problems that disrupt customer workflows.</li>
                         <li>On-site customer support when needed.</li>
@@ -95,8 +96,15 @@ function Experience() {
                         <ul>
                             <li>Cloud and bare metal Linux servers setup.</li>
                             <li>A, MX, TXT, and CNAME DNS record administration.</li>
-                            <li>Cloud Virtual Machine instances creation and configuration.</li>
+                            <li>Cloud Computing</li>
+                                <ul>
+                                    <li>Google Cloud: Compute Engine, Cloud Storage.</li>
+                                    <li>Azure: Virtual Machines, Virtual Network, DevOps.</li>
+                                    <li>AWS: EC2, SES.</li>
+                                </ul>
+                            <li>Cloudflare: CND, DNS, Pages.</li>    
                             <li>VMware Workstation setup.</li>
+                            <li>Network Administration (Linux, OpenWrt, etc.)</li>
                             <li>NGINX Web Server Configuration.</li>
                             <li>Database and user MariaDB creation for Web Server.</li>
                             <li>Basic Docker container creation, registration and deployment.</li>

@@ -87,6 +87,10 @@ const config = {
             href: 'mailto:lvera@tectim.com',
           },
           {
+            label: 'GitHub',
+            href: 'https://github.com/arima0k',
+          },
+          {
             label: 'Twitter',
             href: 'https://twitter.com/arima0k',
           },
