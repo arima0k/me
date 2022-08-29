@@ -11,7 +11,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-          <img className="SvgLogo"  alt=""/>
+        <img className="SvgLogo"  alt=""/>
+        <h1 className="hero__title">Tecstim</h1>
         <h1 className="hero__title" style={{ fontSize: "65px" }}>Luis Vera</h1>
         <h2 className="hero__title" style={{fontSize: "2rem"}}>"A life-changing and life-enhancing technology hunter."</h2>
       </div>
@@ -64,7 +65,7 @@ export default function Home() {
       title={`Home Page`}
       description="Luis Vera's personal website">
         <Head>
-            <title>Luis Vera</title>
+            <title>Luis Vera | Tecstim</title>
             <meta
                 property="og:title"
                 content="Luis Vera"
