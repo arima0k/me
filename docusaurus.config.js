@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Luis Vera',
   tagline: 'Personal website',
-  url: 'https://me.tectim.com',
+  url: 'https://me.tecstim.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -83,8 +83,8 @@ const config = {
       footer: {
         links: [
           {
-            label: 'lvera@tectim.com',
-            href: 'mailto:lvera@tectim.com',
+            label: 'lvera@tecstim.com',
+            href: 'mailto:lvera@tecstim.com',
           },
           {
             label: 'GitHub',
